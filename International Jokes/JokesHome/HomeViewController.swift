@@ -19,7 +19,7 @@ class HomeViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Jokes!"
+        self.title = "International Jokes"
         self.tableView.register(UINib(nibName: "NewJokeCell", bundle: nil), forCellReuseIdentifier: "NewJokeCell")
         self.tableView.tableFooterView = UIView()
         
