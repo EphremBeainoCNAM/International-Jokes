@@ -27,6 +27,8 @@ class HomeViewController: UITableViewController {
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(title: "Logout", style: .done, target: self, action: #selector(logoutUser))
         
         self.getAllJokes()
+        
+        self.view.backgroundColor = .darkGray
     }
     
     @objc func logoutUser() {
