@@ -3,27 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		92871D3A6D7DDE9C61285547 /* Pods_International_Jokes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6ED9EEAA4B34EE6FDAF6DF /* Pods_International_Jokes.framework */; };
+		F95EC35724B06B0F0005FF5C /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95EC35624B06B0F0005FF5C /* Joke.swift */; };
+		F95EC35A24B0733B0005FF5C /* JokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95EC35924B0733B0005FF5C /* JokeCell.swift */; };
+		F95EC35D24B07A3F0005FF5C /* NewJokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95EC35B24B07A3F0005FF5C /* NewJokeCell.swift */; };
+		F95EC35E24B07A3F0005FF5C /* NewJokeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95EC35C24B07A3F0005FF5C /* NewJokeCell.xib */; };
+		F963698D24B05D5600FD88FB /* Auth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F963698C24B05D5600FD88FB /* Auth.storyboard */; };
+		F963698F24B05FB000FD88FB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F963698E24B05FB000FD88FB /* SignInViewController.swift */; };
+		F963699124B0675900FD88FB /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F963699024B0675900FD88FB /* UIViewController+Alert.swift */; };
+		F963699724B068C400FD88FB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F963699624B068C400FD88FB /* HomeViewController.swift */; };
 		F96E5C8D24B059A2004A9CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E5C8C24B059A2004A9CBA /* AppDelegate.swift */; };
 		F96E5C8F24B059A2004A9CBA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E5C8E24B059A2004A9CBA /* SceneDelegate.swift */; };
-		F96E5C9124B059A2004A9CBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96E5C9024B059A2004A9CBA /* ViewController.swift */; };
-		F96E5C9424B059A2004A9CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96E5C9224B059A2004A9CBA /* Main.storyboard */; };
 		F96E5C9624B059A4004A9CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F96E5C9524B059A4004A9CBA /* Assets.xcassets */; };
 		F96E5C9924B059A4004A9CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96E5C9724B059A4004A9CBA /* LaunchScreen.storyboard */; };
+		F96E5CA124B059F7004A9CBA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F96E5CA024B059F7004A9CBA /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C88E52A754A2569555DA422 /* Pods-International Jokes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-International Jokes.release.xcconfig"; path = "Target Support Files/Pods-International Jokes/Pods-International Jokes.release.xcconfig"; sourceTree = "<group>"; };
+		DB6ED9EEAA4B34EE6FDAF6DF /* Pods_International_Jokes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_International_Jokes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBD869D4BCC517E0F416E3A /* Pods-International Jokes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-International Jokes.debug.xcconfig"; path = "Target Support Files/Pods-International Jokes/Pods-International Jokes.debug.xcconfig"; sourceTree = "<group>"; };
+		F95EC35624B06B0F0005FF5C /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		F95EC35924B0733B0005FF5C /* JokeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeCell.swift; sourceTree = "<group>"; };
+		F95EC35B24B07A3F0005FF5C /* NewJokeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJokeCell.swift; sourceTree = "<group>"; };
+		F95EC35C24B07A3F0005FF5C /* NewJokeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewJokeCell.xib; sourceTree = "<group>"; };
+		F963698C24B05D5600FD88FB /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		F963698E24B05FB000FD88FB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F963699024B0675900FD88FB /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		F963699624B068C400FD88FB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F96E5C8924B059A2004A9CBA /* International Jokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "International Jokes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F96E5C8C24B059A2004A9CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F96E5C8E24B059A2004A9CBA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F96E5C9024B059A2004A9CBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F96E5C9324B059A2004A9CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F96E5C9524B059A4004A9CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F96E5C9824B059A4004A9CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F96E5C9A24B059A4004A9CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F96E5CA024B059F7004A9CBA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92871D3A6D7DDE9C61285547 /* Pods_International_Jokes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77650EF8DEA843C56069CAEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD869D4BCC517E0F416E3A /* Pods-International Jokes.debug.xcconfig */,
+				0C88E52A754A2569555DA422 /* Pods-International Jokes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		894BBDA3363926645D268F2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB6ED9EEAA4B34EE6FDAF6DF /* Pods_International_Jokes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F95EC35524B06AF20005FF5C /* JokesHome */ = {
+			isa = PBXGroup;
+			children = (
+				F963699624B068C400FD88FB /* HomeViewController.swift */,
+				F95EC35924B0733B0005FF5C /* JokeCell.swift */,
+				F95EC35B24B07A3F0005FF5C /* NewJokeCell.swift */,
+				F95EC35C24B07A3F0005FF5C /* NewJokeCell.xib */,
+				F95EC35824B06B390005FF5C /* Models */,
+			);
+			path = JokesHome;
+			sourceTree = "<group>";
+		};
+		F95EC35824B06B390005FF5C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F95EC35624B06B0F0005FF5C /* Joke.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F963699224B0685E00FD88FB /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F963698C24B05D5600FD88FB /* Auth.storyboard */,
+				F963698E24B05FB000FD88FB /* SignInViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F963699324B0686A00FD88FB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F963699024B0675900FD88FB /* UIViewController+Alert.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		F96E5C8024B059A2004A9CBA = {
 			isa = PBXGroup;
 			children = (
 				F96E5C8B24B059A2004A9CBA /* International Jokes */,
 				F96E5C8A24B059A2004A9CBA /* Products */,
+				77650EF8DEA843C56069CAEE /* Pods */,
+				894BBDA3363926645D268F2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +131,15 @@
 		F96E5C8B24B059A2004A9CBA /* International Jokes */ = {
 			isa = PBXGroup;
 			children = (
+				F963699224B0685E00FD88FB /* Authentication */,
+				F95EC35524B06AF20005FF5C /* JokesHome */,
+				F963699324B0686A00FD88FB /* Helpers */,
+				F96E5C9724B059A4004A9CBA /* LaunchScreen.storyboard */,
 				F96E5C8C24B059A2004A9CBA /* AppDelegate.swift */,
 				F96E5C8E24B059A2004A9CBA /* SceneDelegate.swift */,
-				F96E5C9024B059A2004A9CBA /* ViewController.swift */,
-				F96E5C9224B059A2004A9CBA /* Main.storyboard */,
-				F96E5C9524B059A4004A9CBA /* Assets.xcassets */,
-				F96E5C9724B059A4004A9CBA /* LaunchScreen.storyboard */,
+				F96E5CA024B059F7004A9CBA /* GoogleService-Info.plist */,
 				F96E5C9A24B059A4004A9CBA /* Info.plist */,
+				F96E5C9524B059A4004A9CBA /* Assets.xcassets */,
 			);
 			path = "International Jokes";
 			sourceTree = "<group>";
@@ -74,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F96E5C9D24B059A4004A9CBA /* Build configuration list for PBXNativeTarget "International Jokes" */;
 			buildPhases = (
+				D3D76AD03304F99B5133E436 /* [CP] Check Pods Manifest.lock */,
 				F96E5C8524B059A2004A9CBA /* Sources */,
 				F96E5C8624B059A2004A9CBA /* Frameworks */,
 				F96E5C8724B059A2004A9CBA /* Resources */,
+				4DF06C0227C7356CDD3FE8E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +204,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F963698D24B05D5600FD88FB /* Auth.storyboard in Resources */,
 				F96E5C9924B059A4004A9CBA /* LaunchScreen.storyboard in Resources */,
+				F95EC35E24B07A3F0005FF5C /* NewJokeCell.xib in Resources */,
+				F96E5CA124B059F7004A9CBA /* GoogleService-Info.plist in Resources */,
 				F96E5C9624B059A4004A9CBA /* Assets.xcassets in Resources */,
-				F96E5C9424B059A2004A9CBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DF06C0227C7356CDD3FE8E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-International Jokes/Pods-International Jokes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-International Jokes/Pods-International Jokes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-International Jokes/Pods-International Jokes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D76AD03304F99B5133E436 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-International Jokes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F96E5C8524B059A2004A9CBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F96E5C9124B059A2004A9CBA /* ViewController.swift in Sources */,
+				F963699724B068C400FD88FB /* HomeViewController.swift in Sources */,
+				F95EC35A24B0733B0005FF5C /* JokeCell.swift in Sources */,
 				F96E5C8D24B059A2004A9CBA /* AppDelegate.swift in Sources */,
+				F95EC35724B06B0F0005FF5C /* Joke.swift in Sources */,
 				F96E5C8F24B059A2004A9CBA /* SceneDelegate.swift in Sources */,
+				F963698F24B05FB000FD88FB /* SignInViewController.swift in Sources */,
+				F963699124B0675900FD88FB /* UIViewController+Alert.swift in Sources */,
+				F95EC35D24B07A3F0005FF5C /* NewJokeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F96E5C9224B059A2004A9CBA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F96E5C9324B059A2004A9CBA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F96E5C9724B059A4004A9CBA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +402,7 @@
 		};
 		F96E5C9E24B059A4004A9CBA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBD869D4BCC517E0F416E3A /* Pods-International Jokes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +421,7 @@
 		};
 		F96E5C9F24B059A4004A9CBA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C88E52A754A2569555DA422 /* Pods-International Jokes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
